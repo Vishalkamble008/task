@@ -1,0 +1,109 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+img{
+  object-fit:contain;
+}
+
+.image-box{
+  background-image: url(../images/Illustrations/male-lines.png);
+  height: 100vh;
+  width: 100%;
+  display: inline-block;
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+
+}
+li{
+  list-style: none;
+}
+.textall{
+ 
+  color: #31A0D7;
+  font-size: 20px;
+  font-weight: 600;
+ 
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+a:hover{
+  color: #FFC107;
+}
+.textall:hover{
+  color: #FFC107;
+}
+.maleBody{
+  width: 100%;
+  height: 100%;
+}
+
+.line1{
+  position: absolute;
+  left: 33.7rem;
+  top: 1.5rem;
+  
+}
+
+.line2{
+  position: absolute;
+  left: 29rem;
+  top: 3rem;
+  
+}
+.line3{
+  position: absolute;
+  left: 30rem;
+  top: 5rem;
+  
+}
+.line4{
+  position: absolute;
+  left: 30rem;
+  top: 8rem;
+  
+}
+.sublink1{
+  position: relative;
+  background-color: #DC3545;
+  color: #fff;
+  right: 30rem;
+  transition: all .2s;
+}
+
+.sublink3{
+  position: relative;
+  background-color: #DC3545;
+  color: #fff;
+  right: 24rem;
+  transition: all .2s;
+}
+.sublink4{
+  position: relative;
+  background-color: #DC3545;
+  color: #fff;
+right: 18rem;
+bottom: 3rem;
+  transition: all .2s;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+
+
+
+.sublink{
+  position: relative;
+  background-color: #DC3545;
+  color: #fff;
+  right: 28rem;
+  z-index: 2;
+  transition: all .2s;
+}
